@@ -10,8 +10,8 @@ public class BankApplication {
         //Create a list of accounts
         List<Account> accounts = new ArrayList<>();
 
-        //Read a txt file then create new accounts based on that data
-        String file = "C:\\Users\\PADC\\Desktop\\Test\\NewBankAccounts.txt";
+        //Read a txt file then create new accounts based on that data. Here should be your txt file.
+        String file = "";
         //Read list of string array from ReaderFile's method and put it into newAccountHolders
         List<String[]> newAccountHolders = ReaderFiles.read(file);
 
